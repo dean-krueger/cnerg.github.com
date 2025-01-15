@@ -66,7 +66,10 @@ You can then load the URL `localhost:4000` in a browser on your native system.
       reflected in the main repository.
 
   b. Clone your fork. This will download your fork to a directory on your local machine.
-      `$ git clone https://github.com/<github_username>/cnerg.github.com`
+    
+     `$ git clone https://github.com/<github_username>/cnerg.github.com`
+
+
 If you don’t have git on your machine, you can get it with
 $ sudo apt-get install git
 Move into the newly created cnerg.github.com folder
