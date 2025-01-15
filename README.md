@@ -125,18 +125,28 @@ You can then load the URL `localhost:4000` in a browser on your native system.
 
 5. Add Your Data to the Site Data
 
-Descend into the _data directory (cd ../../../_data) and edit people.yml
-Create an entry for yourself in the correct group - it’s easiest to just copy someone else’s entry 
-Update the data for you
-The url should be the name of the directory you created above
-The image should be the name of the file you copied into that directory above 
-Test Your Addition
+    a. Descend into the `_data` directory
+      ```
+      cd ../../../_data
+      ```
+      and edit `people.yml`
 
-You can test your addition by running the docker image referenced in the README:
-	
-	cd <path-to-website-repo> (e.g. cd .. if in the _data directory)
+    b. Create an entry for yourself in the correct group - it’s easiest to just copy someone else’s entry 
+    c. Update the data for you
+        * The url should be the name of the directory you created above
+        * The image should be the name of the file you copied into that directory above 
 
-docker run --rm --volume="${PWD}:/srv/jekyll" --volume="${PWD}/vendor/bundle:/usr/local/bundle" -p 4000:4000 jekyll/jekyll jekyll serve
+6. Test Your Addition
+
+    a. You can test your addition by running the docker image referenced in the README:
+    ```
+	  cd <path-to-website-repo>
+    ``` 
+    (e.g. `cd ..` if in the `_data` directory)
+
+    ```
+    docker run --rm --volume="${PWD}:/srv/jekyll" --volume="${PWD}/vendor/bundle:/usr/local/bundle" -p 4000:4000 jekyll/jekyll jekyll serve
+    ```
 
 
 Review your changes in a web browser at localhost:4000. If you make a change, you can refresh the browser and it should auto update.
