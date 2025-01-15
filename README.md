@@ -60,17 +60,17 @@ You can then load the URL `localhost:4000` in a browser on your native system.
 
 2. Clone a copy of the CNERG website repository
 
-   a. Fork [the CNERG website
+    a. Fork [the CNERG website
       repository](https://github.com/cnerg/cnerg.github.com). This can be done
       by clicking the “Fork” button in the top-right corner. Forking means you have
       your own version of the repository where you can make changes that won’t be
       reflected in the main repository.
 
-   a. Clone your fork. This will download your fork to a directory on your local machine.
+    a. Clone your fork. This will download your fork to a directory on your local machine.
     
      `$ git clone https://github.com/<github_username>/cnerg.github.com`
 
-   c. Move into the newly created cnerg.github.com folder
+    c. Move into the newly created cnerg.github.com folder
 
      $ cd cnerg.github.com
 
