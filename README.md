@@ -69,26 +69,32 @@ You can then load the URL `localhost:4000` in a browser on your native system.
     b. Clone your fork. This will download your fork to a directory on your local machine.
     
       ```
-      $ git clone https://github.com/<github_username>/cnerg.github.com
+      git clone https://github.com/<github_username>/cnerg.github.com
       ```
 
     c. Move into the newly created cnerg.github.com folder
 
-      `$ cd cnerg.github.com`
+      ```
+      cd cnerg.github.com
+      ```
 
 3. Make a branch to isolate the changes
 
     a. Create a new branch where you will make the changes. (It doesn’t have to be called “add_myself”, that’s just an example.)
 
-      `$ git branch add_myself`
+      ```
+      git branch add_myself
+      ```
 
     b. Switch to your new branch.
-
-      `$ git checkout add_myself`
+      ```
+      git checkout add_myself
+      ```
 
     c. Note that steps 4 and 5 can be completed simultaneously with
-
-      `$ git checkout -b add_myself`
+      ```
+      git checkout -b add_myself
+      ```
 
 4. Add the Data/Files for your Page
 
