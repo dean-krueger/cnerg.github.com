@@ -66,25 +66,25 @@ You can then load the URL `localhost:4000` in a browser on your native system.
       your own version of the repository where you can make changes that won’t be
       reflected in the main repository.
 
-  b. Clone your fork. This will download your fork to a directory on your local machine.
+   b. Clone your fork. This will download your fork to a directory on your local machine.
     
      $ git clone https://github.com/<github_username>/cnerg.github.com
 
-  c. Move into the newly created cnerg.github.com folder
+   c. Move into the newly created cnerg.github.com folder
 
      $ cd cnerg.github.com
 
 3. Make a branch to isolate the changes
 
-  a. Create a new branch where you will make the changes. (It doesn’t have to be called “add_myself”, that’s just an example.)
+   a. Create a new branch where you will make the changes. (It doesn’t have to be called “add_myself”, that’s just an example.)
 
     $ git branch add_myself
 
-  b. Switch to your new branch.
+   b. Switch to your new branch.
 
     $ git checkout add_myself
 
-  c. Note that steps 4 and 5 can be completed simultaneously with
+   c. Note that steps 4 and 5 can be completed simultaneously with
 
     $ git checkout -b add_myself
 
@@ -94,7 +94,7 @@ You can then load the URL `localhost:4000` in a browser on your native system.
 
     $ cd community/people
     $ mkdir <initials>
-    
+
 Change to that directory
 Add a photo of yourself by copying a file into this directory (cp <path to image> .)
 Add an index.md file - it’s easiest to copy one from someone else (either touch index.md or cp <path to someone elses index.md> .)
