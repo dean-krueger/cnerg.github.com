@@ -54,6 +54,7 @@ You can then load the URL `localhost:4000` in a browser on your native system.
 
 1. Before you start:
   * If you are not familiar with git and version control, consider [this tutorial](http://swcarpentry.github.io/git-novice/)
+  * Make sure you already have git installed on your computer
   * You may also want to refer to [this summary of git workflows](https://docs.google.com/presentation/d/1zWa5y-BUZVvR0jKCtG6ueDxPYoODKTP8xeyhZYP_eGo/edit#slide=id.g93ff427fad_0_0)
   * Create a [github](https://github.com/join) account, if you don’t already have one.
 
@@ -67,22 +68,33 @@ You can then load the URL `localhost:4000` in a browser on your native system.
 
   b. Clone your fork. This will download your fork to a directory on your local machine.
     
-     `$ git clone https://github.com/<github_username>/cnerg.github.com`
+     $ git clone https://github.com/<github_username>/cnerg.github.com
 
+  c. Move into the newly created cnerg.github.com folder
 
-If you don’t have git on your machine, you can get it with
-$ sudo apt-get install git
-Move into the newly created cnerg.github.com folder
-$ cd cnerg.github.com
-Make a branch to isolate the changes
-Create a new branch where you will make the changes. (It doesn’t have to be called “add_myself”, that’s just an example.)
-$ git branch add_myself
-Switch to your new branch.
-$ git checkout add_myself
-Note that steps 4 and 5 can be completed simultaneously with
-$ git checkout -b add_myself
-Add the Data/Files for your Page
-Descend into the community/people (cd community/people) directory and make a directory for yourself (mkdir <initials>). Most people use initials, but you can use anything that is unique
+     $ cd cnerg.github.com
+
+3. Make a branch to isolate the changes
+
+  a. Create a new branch where you will make the changes. (It doesn’t have to be called “add_myself”, that’s just an example.)
+
+    $ git branch add_myself
+
+  b. Switch to your new branch.
+
+    $ git checkout add_myself
+
+  c. Note that steps 4 and 5 can be completed simultaneously with
+
+    $ git checkout -b add_myself
+
+4. Add the Data/Files for your Page
+
+  a. Descend into the `community/people` directory and make a directory for yourself (mkdir <initials>). Most people use initials, but you can use anything that is unique
+
+    $ cd community/people
+    $ mkdir <initials>
+    
 Change to that directory
 Add a photo of yourself by copying a file into this directory (cp <path to image> .)
 Add an index.md file - it’s easiest to copy one from someone else (either touch index.md or cp <path to someone elses index.md> .)
