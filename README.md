@@ -170,21 +170,22 @@ You can then load the URL `localhost:4000` in a browser on your native system.
 
 8. Request that your changes be added to the official website
 
-  a. Create a pull request (PR) between the branch on your fork and the “source” branch in the main repo. This can be done by using a web browser to navigate to your new branch on your fork and clicking “Pull request”.
+    a. Create a pull request (PR) between the branch on your fork and the “source” branch in the main repo. This can be done by using a web browser to navigate to your new branch on your fork and clicking “Pull request”.
 
-  It will probably look like this:
-
-
-  But you may need to go through the “Contribute” menu to start a PR:
+    It will probably look like this:
 
 
-  NOTE: you must be on the new branch for the contribute menu to pop up with a PR
-	(step 1 in the picture)
+    But you may need to go through the “Contribute” menu to start a PR:
 
-  This will allow other users to review the changes you made and make comments, request changes, or approve your changes. Once your PR has been created, you should be able to see it [here](https://github.com/cnerg/cnerg.github.com/pulls).
 
-  b. Once you and one or more reviewers are satisfied with your changes, someone with write access will merge your branch into the main repo. This only updates the .rst files; it doesn’t update the rendered html. Someone will also need to regenerate the rendered .html before your changes will be reflected in the actual website.
-  c. Once this is done, you’ll be able to find yourself on [the staff and students](https://cnerg.github.io/community/people/) page of the website!
+    NOTE: you must be on the new branch for the contribute menu to pop up with a PR
+	  (step 1 in the picture)
+
+    This will allow other users to review the changes you made and make comments, request changes, or approve your changes. Once your PR has been created, you should be able to see it [here](https://github.com/cnerg/cnerg.github.com/pulls).
+
+    b. Once you and one or more reviewers are satisfied with your changes, someone with write access will merge your branch into the main repo. This only updates the .rst files; it doesn’t update the rendered html. Someone will also need to regenerate the rendered .html before your changes will be reflected in the actual website.
+
+    c. Once this is done, you’ll be able to find yourself on [the staff and students](https://cnerg.github.io/community/people/) page of the website!
 
 # Boostrap 4 Github Pages
 
