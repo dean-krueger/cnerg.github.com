@@ -100,17 +100,31 @@ You can then load the URL `localhost:4000` in a browser on your native system.
 
     a. Descend into the `community/people` directory and make a directory for yourself (mkdir <initials>). Most people use initials, but you can use anything that is unique
     ```
-    $ cd community/people
-    $ mkdir <initials>
+    cd community/people
+    mkdir <initials>
     ```
 
-Change to that directory
-Add a photo of yourself by copying a file into this directory (cp <path to image> .)
-Add an index.md file - it’s easiest to copy one from someone else (either touch index.md or cp <path to someone elses index.md> .)
-Edit the index.md file by changing the data in the header
-You can delete any that are not relevant
-Make sure the image data refers to the photo you have copied in to this directory
-Add Your Data to the Site Data
+    b. Change to that directory
+    c. Add a photo of yourself by copying a file into this directory 
+    ```
+    cp <path to image> .
+    ```
+
+    c. Add an `index.md` file - it’s easiest to copy one from someone else. Either 
+    ```
+    touch index.md
+    ```
+    or
+    ```
+    cp <path to someone elses index.md> .
+    ```
+
+    c. Edit the `index.md` file by changing the data in the header
+        * You can delete any that are not relevant
+        * Make sure the `image` data refers to the photo you have copied in to this directory
+
+5. Add Your Data to the Site Data
+
 Descend into the _data directory (cd ../../../_data) and edit people.yml
 Create an entry for yourself in the correct group - it’s easiest to just copy someone else’s entry 
 Update the data for you
